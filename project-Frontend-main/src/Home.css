@@ -1,0 +1,48 @@
+/* Home.css */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(to bottom, #3498db, #2980b9);
+    color: #8f3f3f;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    
+  }
+  
+  h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  }
+  
+  p {
+    font-size: 1.2em;
+    line-height: 1.6;
+  }
+  
+  button {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #c0392b;
+  }
+  
+  /* Add additional styles based on your preferences */
+  

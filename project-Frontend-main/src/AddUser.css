@@ -1,0 +1,90 @@
+/* AddUser.css */
+
+/* form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+} */
+
+/* Add additional styles based on your preferences */
+
+
+/* AddUser.css */
+
+h2{
+  margin: 0 0;
+  padding: 100px 10px 0px 0px;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: rgba(55, 52, 52, 0.2); /* Light gray background */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color:  rgb(255, 255, 255); /* Blue label text color */
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ced4da; /* Light border color */
+  border-radius: 6px;
+}
+
+button {
+  background-color: #28a745; /* Green button background color */
+  color: #fff;
+  padding: 12px 24px;
+  font-size: 18px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+/* Add additional styles based on your preferences */
+

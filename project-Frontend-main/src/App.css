@@ -1,0 +1,59 @@
+/* App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: url('bg.jpg') center/cover no-repeat fixed;
+  overflow-x: hidden;
+  position: relative;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Light overlay */
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2em;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #e74c3c;
+}
+
+/* Different color for the current page */
+nav a.active {
+  color: #3498db;
+}
+
+.container {
+  margin-top: 60px; /* Adjust to the height of the navbar */
+  padding: 20px;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* Add other styles based on your design preferences */
